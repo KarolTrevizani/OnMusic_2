@@ -15,10 +15,10 @@ export default function Home() {
                 <img src="/images/carrossel_one.jpeg" className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                {/* <img src="../statics/images/carrossel_two.jpeg" className="d-block w-100" alt="..." stylight: 700px"> */}
+                <img src="/images/carrossel_two.jpeg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                {/* <img src="../statics/images/carrosel_three.jpeg" className="d-block w-100" alt="..." stylight: 700px"> */}
+                <img src="../statics/images/carrosel_three.jpeg" className="d-block w-100" alt="..." />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,8 +35,7 @@ export default function Home() {
     <div className="title">
         <h2>Top Artists</h2>
     </div>
-
-
+    <div className="hr"></div>
     <div className="container-cards">
 
         <div className="card">
@@ -50,7 +49,7 @@ export default function Home() {
             </div>
         </div>
         &nbsp;&nbsp;
-        <div className="card">
+        <div className="card" id="card">
             <img src="/images/ariana_positions.jpeg" className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Ariana Grande</h5>
@@ -61,7 +60,7 @@ export default function Home() {
             </div>
         </div>
         &nbsp;&nbsp;
-        <div className="card">
+        <div className="card" id="card">
             <img src="/images/prince_purple_rain.jpg" className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Prince</h5>
@@ -72,10 +71,7 @@ export default function Home() {
             </div>
         </div>
     </div>
-
-    <div className="footer">
-    <p>OnMusic © 2023</p>
-    </div>
+    <div className="hr"></div>
     </div>
   )
 }

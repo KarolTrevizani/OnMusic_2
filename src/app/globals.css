@@ -1,0 +1,31 @@
+:root {
+    --main-color: #1c0026;
+    --text-color-one: #AA50DE;
+    --secondary-color: #43247F;
+}
+
+body{
+    background-color: var(--main-color);
+    color: var(--text-color-one);
+}
+
+.container-cards {
+
+    display: flex;
+    justify-content:space-evenly;
+
+    .card{
+        width: 18rem;
+    }
+}
+
+.hr {
+    margin-bottom: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: var(--text-color-one);
+}
