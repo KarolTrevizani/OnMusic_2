@@ -67,7 +67,7 @@ export default function Home() {
                 <p className="card-text">Purple Rain</p>
             </div>
             <div className="card-body">
-                <a href="https://open.spotify.com/track/54X78diSLoUDI3joC2bjMz" class="card-link">Go to songs</a>
+                <a href="https://open.spotify.com/track/54X78diSLoUDI3joC2bjMz" className="card-link">Go to songs</a>
             </div>
         </div>
     </div>

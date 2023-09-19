@@ -115,56 +115,56 @@ body{
   \*****************************************************************************************************************************************************************************************************************************************************************/
 
 
-  .page_header__kVzhN {
-      background-color: var(--main-color);
-  }
-  .page_container-cards__Qfl0T{
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      margin-top: 40px;
-  }
+.page_header__kVzhN {
+    background-color: var(--main-color);
+}
+.page_container-cards__Qfl0T{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
 
 
 
 
 
-  .page_card__QV0Om {
-      background-color: var(--secondary-color);
-  }
+.page_card__QV0Om {
+    background-color: var(--secondary-color);
+}
 
-  .page_card-link__VhOK2 {
-      text-decoration: none;
-      color: var(--text-color-one);
-  }
-  
-  .page_navbar-brand__sygHX {
-      color: var(--text-color-one);
-  }
+.page_card-link__VhOK2 {
+    text-decoration: none;
+    color: var(--text-color-one);
+}
 
-  .page_navbar-text__ybqHw {
-      font-size: 17px;
-  }
+.page_navbar-brand__sygHX {
+    color: var(--text-color-one);
+}
 
-  .page_nav-link__FDrmC {
-      color: var(--text-color-one);
-  }
+.page_navbar-text__ybqHw {
+    font-size: 17px;
+}
 
-  .page_footer__sHKi3 {
-      width: 100%;
-      background-color: #AA50DE;
-      margin-top: 20%;
-      margin-bottom: 0%;
-      display: flex;
-      align-items: center;
-  }
+.page_nav-link__FDrmC {
+    color: var(--text-color-one);
+}
 
-  .page_footer__sHKi3 p {
-      color: white;
-  }
-  .page_carrosel-principal__8dtoK{
-      width: auto;
-      height: auto;
-  }
+.page_footer__sHKi3 {
+    width: 100%;
+    background-color: #AA50DE;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.page_footer__sHKi3 p {
+    color: white;
+}
+.page_carrosel-principal__8dtoK{
+    width: auto;
+    height: auto;
+}
 
 
