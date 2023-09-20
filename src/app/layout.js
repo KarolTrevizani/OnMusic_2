@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import Footer from './components/footer';
 import Header from './components/header';
 import './globals.css';
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer/>
         </body>
-      <script src='bootstrap/dist/js/bootstrap.min.js'></script>
+        <Script src="bootstrap/dist/js/bootstrap.min.js"/>
     </html>
   )
 }
